@@ -121,3 +121,84 @@ svg,img {
     /* Если я захочу поменять ховер эффект, то поменять надо и фон body+header*/
     background-color: #141414; 
 }
+
+/*------Banner------*/
+
+.ds-banner{
+    margin-top: 4rem;
+    margin-bottom: 8.125rem 
+}
+
+.ds-banner-hed{
+    font-size: 5.3125rem;
+    line-height:5rem 
+}
+
+.ds-image-shadow{
+    box-shadow:30px 30px #fbad11;
+
+   
+
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease;
+   
+   
+    /* border-radius: 10px; */
+}
+.ds-image-shadow:hover{
+   
+    box-shadow: 0px 0px 3px 3px #fbad11;
+    color: #fbad11;
+    
+}
+
+.ds-social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.ds-social li{
+    margin-right: 20px
+}
+
+.ds-social li:alst-child{
+    margin-right: 0
+}
+
+.ds-social a{
+    width: 40px;
+    height: 40px;
+    background-color: #fbad11;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.50rem;
+    color:#000000 
+}
+
+.ds-social li:hover a{
+    background-color: #141414;
+    color:#fbad11
+}
+
+.ds-banner figure{
+    width: 370px;
+    position: relative;
+}
+
+.ds-banner figure figcaption{
+    color: #FFF;
+    font-size:1.875rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom:2.5rem 
+}
