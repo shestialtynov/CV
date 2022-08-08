@@ -1,0 +1,123 @@
+:root {
+	--font_14:0.875rem;
+	--font_16:1rem;
+	--font_30:1.875rem;
+	--font_36:2.25rem;
+	--font_48:3rem;
+	--40:2.5rem;
+	--30:1.875rem;
+	--margin_30:1.875rem;
+	--margin-54:3.375rem;
+	--margin-60:3.75rem;
+	--margin-100:6.25rem;
+	--margin-120:7.5rem;   
+}
+
+html {font-family: 'Poppins', sans-serif;
+    background-color:#141414
+}
+
+body {font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background-color:#141414;
+    font-weight:400;
+    font-style: normal;
+    color: #FFF;
+    font-size: var(--font_14)
+}
+
+a,a:hover,a:focus,i,input,button,input:focus,.transition {
+    text-decoration: none;
+    outline: none;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: ease;
+    box-shadow: none;
+}
+
+a{
+    color: #000
+}
+
+iframe {
+    border: 0;
+    outline: none;
+}
+
+::-moz-selection {
+    background: var(--red);
+    text-shadow: none;
+    color:var(--white)
+}
+
+::selection {
+    background:var(--red);
+    text-shadow: none;
+    color:var(--white)
+}
+
+img {
+    max-width: 100%;
+    border: none;
+    outline: none;
+    height: auto;
+}
+
+input,textarea {
+    border-radius: 0;
+    resize: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+font-family: 'Philosopher', serif;
+font-family: 'Poppins', sans-serif;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: transparent;
+    background-image: none;
+    color:#000;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Philosopher', serif;
+}
+
+figure{
+    margin: 0
+}
+
+svg,img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*------Header------*/
+
+.ds-header{
+    padding-top:2.5rem;
+    padding-bottom: 7.8125rem;
+    position: relative; 
+}
+
+.ds-logo a{
+    display: inline-block;
+    background-color: #fbad11;
+    font-weight: 600;
+    font-size: 1.125rem;
+    padding: 0  0.4375rem;
+    color: #000
+}
+
+.ds-logo a:hover,.ds-logo a:focus{
+    color: #fbad11;
+    
+    /* Если я захочу поменять ховер эффект, то поменять надо и фон body+header*/
+    background-color: #141414; 
+}
