@@ -251,15 +251,15 @@ svg,img {
     background-color:#fbad11;
 }
 /*
->>> projects
+>>> Skills
 ----------------------------------------------------------------*/
 
 
-.ds-projects-section{
+.ds-skills-section{
     padding: 4rem;
 }
 
-.ds-projects-section h2{
+.ds-skills-section h2{
     font-size: 2.5rem; 
     line-height: 3.375rem; 
     width: 100%;
@@ -268,7 +268,7 @@ svg,img {
     margin-bottom: 5rem;
 }
 
-.ds-projects-section h2 span{
+.ds-skills-section h2 span{
     display: block;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
