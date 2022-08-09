@@ -98,7 +98,11 @@ svg,img {
     height: auto;
 }
 
-/*------Header------*/
+/*-----------------------------------------------------------------------------------------------------------
+
+==============Header
+
+-----------------------------------------------------------------------------------------------------------*/
 
 .ds-header{
     padding-top:2.5rem;
@@ -133,6 +137,75 @@ svg,img {
     font-size: 5.3125rem;
     line-height:5rem 
 }
+
+@media (max-width: 575px){
+
+    .ds-banner{
+        margin-top: 0rem
+    }
+
+    .ds-banner-hed{
+    font-size: 3rem;
+    line-height:3.5rem 
+    }
+
+    .ds-social{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+        margin-left: 3rem;
+    }
+    .ds-image-shadow{
+        box-shadow:30px 30px #fbad11;
+        
+       
+    
+        transition-delay: 0.1s;
+        transition-duration: 0.5s;
+        transition-property: all;
+        transition-timing-function: ease;
+       
+       
+        /* border-radius: 10px; */
+    }
+    
+}
+
+@media (max-width: 991px){
+    .ds-banner{
+        margin-top: 0rem
+    }
+
+    .ds-banner-hed{
+    font-size: 3rem;
+    line-height:3.5rem 
+    }
+
+    .ds-social{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+
+    }
+    .ds-image-shadow{
+        box-shadow:30px 30px #fbad11;
+        margin-left: 0.7rem;
+       
+    
+        transition-delay: 0.1s;
+        transition-duration: 0.5s;
+        transition-property: all;
+        transition-timing-function: ease;
+       
+       
+        /* border-radius: 10px; */
+    }
+}
+
 
 .ds-image-shadow{
     box-shadow:30px 30px #fbad11;
@@ -204,11 +277,16 @@ svg,img {
 }
 
 
-/*------Banner------*/
+/*-----------------------------------------------------------------------------------------------------------
+
+==============Resume
+
+-----------------------------------------------------------------------------------------------------------*/
 
 .ds-resume-section{
     background-color: #000;
-    padding: 7.5rem 0;
+    padding: 7.5rem;
+    
 }
 
 .ds-resume-section h2{ 
@@ -216,19 +294,59 @@ svg,img {
     line-height: 3.375rem;
     width: 100%;
     max-width: 80%;
-    margin: 0;
+    margin-bottom: 50px;
 }
+
+@media (max-width: 575px){
+
+    .ds-resume-section{
+        background-color: #000;
+        
+        padding: 3rem 3rem 3rem 3rem;
+        
+    }
+
+    .ds-resume-section h2{
+    font-size: 2rem;
+    line-height: 2rem;
+    width: 000%;
+    max-width: 200%;
+    margin-bottom: 50px;
+    }
+} 
+
+@media (max-width: 991px){
+
+    .ds-resume-section{
+        background-color: #000;
+        
+        padding: 3rem 3rem 3rem 3rem;
+        
+    }
+
+    .ds-resume-section h2{
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    width: 100%;
+    max-width: 200%;
+    margin-bottom: 50px;
+    }
+
+}
+
 
 .ds-resume-section p{
     color:#9C9C9C;
     font-size: 1rem;
     line-height: 1.6rem;
-
+    
 }
+
 
 .ds-resume-section li{
     color: #fbad11;  
 }
+
 
 .ds-download-button{
     display: inline-block;
@@ -250,9 +368,11 @@ svg,img {
     color: #000;
     background-color:#fbad11;
 }
-/*
->>> Skills
-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------
+
+==============Skills
+
+-----------------------------------------------------------------------------------------------------------*/
 
 
 .ds-skills-section{
@@ -298,9 +418,11 @@ svg,img {
     color: #adadad;
     font-size: 1rem;
     font-weight: 600;
+    letter-spacing: 0.05rem;
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 0.3rem;
+    
 }
 
 .skill-bar-percent {
@@ -312,8 +434,55 @@ svg,img {
     text-transform: uppercase;
 }
 
+/*-----------------------------------------------------------------------------------------------------------
 
-  
+==============Email
+
+-----------------------------------------------------------------------------------------------------------*/
+.ds-email-section{
+    padding: 7.5rem 0;
+    background-color: #fbad11;
+    text-align: center;
+}
+
+.ds-email-section h2{
+    font-size: 3.75rem;
+    color: #000;
+    margin-bottom: 1.875rem
+}
+
+.ds-email-section a{
+    font-size:1.25rem;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.ds-email-section a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------------------------------
+
+==============Header
+
+-----------------------------------------------------------------------------------------------------------*/
+.ds-footer{
+    padding: 2.5rem 0;
+    text-align: center;
+    color: #7e7b7b;
+    font-size: 1rem
+}
+
+.ds-copyright{
+    margin-left: 1.2rem;
+    
+}
+/*-----------------------------------------------------------------------------------------------------------
+
+
+
+-----------------------------------------------------------------------------------------------------------*/
 
   
 
