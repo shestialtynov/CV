@@ -166,8 +166,8 @@ svg,img {
     margin-right: 20px
 }
 
-.ds-social li:alst-child{
-    margin-right: 0
+.ds-social li:last-child{
+    margin-right: 0;
 }
 
 .ds-social a{
@@ -180,12 +180,12 @@ svg,img {
     justify-content: center;
     align-items: center;
     font-size:1.50rem;
-    color:#000000 
+    color:#000000;
 }
 
 .ds-social li:hover a{
     background-color: #141414;
-    color:#fbad11
+    color:#fbad11;
 }
 
 .ds-banner figure{
@@ -202,3 +202,118 @@ svg,img {
     text-align: center;
     padding-bottom:2.5rem; 
 }
+
+
+/*------Banner------*/
+
+.ds-resume-section{
+    background-color: #000;
+    padding: 7.5rem 0;
+}
+
+.ds-resume-section h2{ 
+    font-size: 2.5rem;
+    line-height: 3.375rem;
+    width: 100%;
+    max-width: 80%;
+    margin: 0;
+}
+
+.ds-resume-section p{
+    color:#9C9C9C;
+    font-size: 1rem;
+    line-height: 1.6rem;
+
+}
+
+.ds-resume-section li{
+    color: #fbad11;  
+}
+
+.ds-download-button{
+    display: inline-block;
+    color: #fbad11;
+    border: 1px solid #fbad11;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    padding:0.875rem 1.25rem;
+    margin-top: 30px;
+}
+
+.ds-download-button i{
+    font-size:1.125rem;
+    vertical-align: middle;
+}
+
+.ds-download-button:hover{
+    color: #000;
+    background-color:#fbad11;
+}
+/*
+>>> projects
+----------------------------------------------------------------*/
+
+
+.ds-projects-section{
+    padding: 4rem;
+}
+
+.ds-projects-section h2{
+    font-size: 2.5rem; 
+    line-height: 3.375rem; 
+    width: 100%;
+    max-width:100%;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.ds-projects-section h2 span{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: #fbad11;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 0.75rem;
+    margin-bottom: 0.625rem
+}
+
+.skillbar {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.skillbar-bar {
+    height: 0.3rem;
+    width: 100%;
+    background: #fbad11;
+    transition-property: all;
+}
+
+.skillbar-title {
+    font-family: 'Poppins', sans-serif;
+    color: #adadad;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 0.3rem;
+}
+
+.skill-bar-percent {
+    float: right;
+    display: inline-block;
+    color: #fbad11;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+  
+
+  
+
