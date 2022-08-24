@@ -1,6 +1,6 @@
 AOS.init({
-    once: true,
-    duration: 900,
+  once: true,
+  duration: 900,
 });
 
 /* You can also pass an optional settings object
